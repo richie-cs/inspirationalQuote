@@ -1,0 +1,1 @@
+## simple inspirational quote generator

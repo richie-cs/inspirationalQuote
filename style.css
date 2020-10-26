@@ -1,0 +1,61 @@
+body {
+    background: pink;
+    background: linear-gradient(to right, #D4D3DD, pink);
+}
+
+div {
+    text-align: center;
+    font-family: 'Poppins', sans-serif
+}
+
+h1 { 
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 45px;
+}
+
+button {
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+
+    /* background-color: white;
+	border-radius:28px;
+	border:1px solid pink;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:16px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627; */
+}
+
+
+button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+    /* background-color: lavender;
+    color: black; */
+}
+
+button:active {
+    position:relative;
+	top:1px;
+}
+
+
